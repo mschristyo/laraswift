@@ -1,0 +1,61 @@
+.sidebar-light-light .sidebar .sidebar-active{
+  background: rgba(52, 58, 64, 1);
+  color: #ffffff;
+}
+.sidebar-dark-light .sidebar .sidebar-active{
+  background: rgba(247, 247, 247, 0.1);
+  color: #ffffff;
+}
+
+.sidebar-light-light .sidebar nav ul li a:hover {
+  background: rgba(52, 58, 64, 1) !important;
+  color: #ffffff !important;
+}
+
+.sidebar-light-light .sidebar {
+  color: #343a40;
+}
+
+.select2-container .select2-selection--single{
+  height: calc(2.25rem + 2px) !important;
+}
+
+.sidebar-light-light .sidebar .nav .nav-item.active .nav-link {
+  background: rgba(52, 58, 64, 1) !important;
+  color: #ffffff !important;
+}
+
+.sidebar-dark-light .sidebar .nav .nav-item.active .nav-link{
+  background: rgba(247, 247, 247, 0.1);
+  color: #ffffff;
+}
+
+.list-style-square{
+  list-style-type: square;
+}
+
+.textarea-resize-none{
+  resize:none;
+}
+
+.font-weight-400{
+  font-weight:400 !important;
+}
+
+.display-none{
+  display: none;
+}
+
+.opacity-8{
+  opacity: .8;
+}
+
+.font-size-35{
+  font-size:35px !important;
+}
+.font-size-25{
+  font-size:25px !important;
+}
+.font-size-20{
+  font-size:20px;
+}

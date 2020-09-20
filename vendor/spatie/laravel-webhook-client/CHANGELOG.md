@@ -1,0 +1,40 @@
+# Changelog
+
+All notable changes to `laravel-webhook-client` will be documented in this file
+
+## 2.3.0 - 2019-10-30
+
+- add `WebhookConfigRepository` to make it easier to programmatically add config 
+
+## 2.2.0 - 2019-09-04
+
+- Add Laravel 6 support
+
+## 2.1.1 - 2019-09-02
+
+- use `bigInteger` by default
+
+## 2.1.0 - 2019-07-09
+
+- added an overridable method `storeWebhook` on the `WebhookCall` model.
+
+## 2.0.1 - 2019-07-08
+
+- make `signing_secret` and `signature_header_name` config keys optional
+
+## 2.0.0 - 2019-07-08
+
+- `DefaultSignatureValidator` is now responsible for verifying that a signature header has been set
+- `InvalidSignatureEvent` now only gets the `$request`
+
+## 1.0.2 - 2019-07-01
+
+- remove handle abstract method from `ProcessWebhookJob` to allow DI.
+
+## 1.0.1 - 2019-06-19
+
+- fix config file
+
+## 1.0.0 - 2019-06-14
+
+- initial release

@@ -1,0 +1,36 @@
+{
+    "name": "infyomlabs/coreui-templates",
+    "type": "library",
+    "description": "CoreUI templates for InfyOm Laravel Generator",
+    "keywords": [
+        "infyom",
+        "laravel",
+        "generator",
+        "coreui",
+        "templates",
+        "bootstrap"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitul Golakiya",
+            "email": "me@mitul.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "^6.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InfyOm\\CoreUITemplates\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\InfyOm\\CoreUITemplates\\CoreUITemplatesServiceProvider"
+            ]
+        }
+    }
+}

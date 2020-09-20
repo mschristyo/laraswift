@@ -1,0 +1,62 @@
+.width-100{
+  width: 100%
+}
+
+.transparent-border{
+  border-color: transparent;
+}
+.padding-left-0{
+  padding-left: 0px
+}
+.padding-left-10{
+  padding-left: 0px
+}
+
+.margin-left{
+  margin-left: 0px!important;
+}
+
+.display-none{
+  display: none;
+}
+
+.width-100{
+  width: 100% !important;
+}
+
+.field-delete-btn{
+  cursor: pointer !important;
+  font-size: 20px !important;
+  color: red !important;
+}
+
+.vertical-align-middle{
+  vertical-align: middle !important;
+}
+
+.padding-15{
+  padding:15px 15px;
+}
+
+.display-table-row{
+  display: table-row;
+}
+
+.px-width-63{
+  width: 63px !important;
+}
+.px-width-65{
+  width: 65px !important;
+}
+.px-width-67{
+  width: px !important;
+}
+.px-width-68{
+  width: 68px !important;
+}
+.px-width-80{
+  width: 80px !important;
+}
+.px-width-87{
+  width: 87px !important;
+}
